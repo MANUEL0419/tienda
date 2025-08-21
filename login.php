@@ -1,6 +1,7 @@
 <?php
 //require '../tienda/conexion.php';
 require __DIR__ . '/conexion.php';
+
 //require '../tienda/auth.php' ;
 //session_start();
 $titulo = "Iniciar Sesión | Servitec";

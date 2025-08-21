@@ -11,7 +11,7 @@ $contrasena_plana = "1234"; // Cambia por la contraseña que quieras
 $hash = password_hash($contrasena_plana, PASSWORD_DEFAULT);
 
 // Insertar en la base de datos
-$sql = "INSERT INTO usuarios (usuario, nombre, rol, contraseña) VALUES (?, ?, ?, ?)";
+$sql = "INSERT INTO usuarios (usuario, nombre, rol, 'contraseña') VALUES (?, ?, ?, ?)";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("ssss", $usuario, $nombre, $rol, $hash);
 
