@@ -15,4 +15,6 @@ $stmt->execute();
 header("Location: lista_proveedores.php?mensaje=Proveedor_actualizado");
 
 // agrego un comentario de prueba para ver cambios en git con el comando git diff --name-only HEAD~1 HEAD
+
+//jlfjlsjflksjflsflkjslfkjlsjflksjflksjflkq
 ?>
