@@ -33,12 +33,10 @@ include 'includes/header.php';
         </div>
         </div>
     </div>
-    <p>hola si señor</p>
-<p>Vamos con este segundo si sr: hola si señor</p>
+   
 </div>
 <div class="footer">
-    <?php echo 'este es unmensaje a traves de php' ?>
-    <?php echo 'este es unmensaje a traves de php' ?>
+   
     <?php include 'includes/footer.php'; ?>
 
     
